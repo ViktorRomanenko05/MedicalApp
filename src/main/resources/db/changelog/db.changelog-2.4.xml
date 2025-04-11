@@ -4,9 +4,9 @@
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.0.xsd">
     <changeSet id="modify-column-mame" author="viktor romanenko">
-        <renameColumn tableName="books" oldColumnName="published_year" newColumnName="publication_year"/>
-        <rollback>
-            <modifyDataType tableName="books" columnName="publication_year" newDataType="published_year"/>
-        </rollback>
+<!--        <renameColumn tableName="books" oldColumnName="published_year" newColumnName="publication_year"/>-->
+<!--        <rollback>-->
+<!--            <modifyDataType tableName="books" columnName="publication_year" newDataType="published_year"/>-->
+<!--        </rollback>-->
     </changeSet>
 </databaseChangeLog>
