@@ -9,4 +9,4 @@ RUN ./mvnw dependency:go-offline
 COPY src ./src
 RUN ./mvnw package -DskipTests
 
-CMD ["java", "-jar", "target/medicalapp-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "target/medicalapplication-0.0.1-SNAPSHOT.jar"]
